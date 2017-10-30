@@ -5,7 +5,7 @@ Create a web that asks, through a ```prompt ()```, a phrase to the user and retu
 ## pseudocode
 
 1. Create 2 functions: 
-	-```cipher(str, shift){	}```
-	-```decipher(str, shift){	}```
-2. Ask the user to enter a phrase they want to cipher through a ```javascript prompt ()```
+-```cipher(str, shift){	}```
+-```decipher(str, shift){	}```
+2. Ask the user to enter a phrase they want to cipher through a ```prompt ()```
 
