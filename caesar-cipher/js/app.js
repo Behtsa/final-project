@@ -15,7 +15,7 @@ var cipherPhrase = cipher(phrase, 33);
 var decipher = function(cipherPhrase, shift){
   var decipherPhrase = [];
   for(var i = 0; i < cipherPhrase.length; i++){
-    var decipherAscii = ((cipherPhrase.charCodeAt(i) + 65 - 33) % 26 + 65);
+    var decipherAscii = ((cipherPhrase.charCodeAt(i) + 65 - shift) % 26 + 65);
     var decipherLetter = String.fromCharCode(decipherAscii);
     decipherPhrase.push(decipherLetter);
   }
