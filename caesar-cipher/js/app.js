@@ -39,8 +39,8 @@ var decipher = function(cipherPhrase, shift){
   return decipherPhrase.join('');
 }
 
-if(phrase.length === 0){
-  alert("You must entered a phrase");
+if(phrase.length === 0 || Number.parseInt(phrase)){
+  alert("You must entered a phrase. Remember numbers are not accepted");
 }else{
   document.write(cipherPhrase + '<br/>');
   document.write(decipher(cipherPhrase, 33));
