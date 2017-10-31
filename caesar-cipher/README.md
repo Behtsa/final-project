@@ -22,6 +22,7 @@ Create a web that asks, through a ```prompt ()```, a phrase to the user and retu
 14. Use returned value of cipher function as a parameter of the decipher function.
 15. We apply same method as in the cipher f() but in reverse. 
 16. We show the cipher and decipher phrase on the browser. 
-![Diagram](http://E:\laboratoria\sprint1\final-project\caesar-cipher)
+
+![Diagram](http://caesar-cipher.jpeg)
 
 
