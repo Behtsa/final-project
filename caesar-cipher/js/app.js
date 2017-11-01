@@ -39,6 +39,8 @@ var decipher = function(cipherPhrase, shift){
   return decipherPhrase.join('');
 }
 
+var phrase = prompt("Enter the phrase you want to cipher: ").toUpperCase();
+
 if(phrase.length === 0 || Number.parseInt(phrase)){
   alert("You must entered a phrase. Remember numbers are not accepted");
 }else{
